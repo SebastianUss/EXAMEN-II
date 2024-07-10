@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.07.09 a las 08:12:03 PM PET 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.Gutierrez.com/infraccionservice">
+    <schemaBindings map="false">
+      <package name="com.gutierrez.infraccionservice"/>
+    </schemaBindings>
+    <bindings scd="tns:GetAllInfraccionRequest">
+      <class ref="com.gutierrez.infraccionservice.GetAllInfraccionRequest"/>
+    </bindings>
+    <bindings scd="tns:GetAllInfraccionResponse">
+      <class ref="com.gutierrez.infraccionservice.GetAllInfraccionResponse"/>
+    </bindings>
+    <bindings scd="~tns:InfraccionDetalle">
+      <class ref="com.gutierrez.infraccionservice.InfraccionDetalle"/>
+    </bindings>
+    <bindings scd="tns:GetInfraccionRequest">
+      <class ref="com.gutierrez.infraccionservice.GetInfraccionRequest"/>
+    </bindings>
+    <bindings scd="tns:GetInfraccionResponse">
+      <class ref="com.gutierrez.infraccionservice.GetInfraccionResponse"/>
+    </bindings>
+    <bindings scd="tns:AddInfraccionRequest">
+      <class ref="com.gutierrez.infraccionservice.AddInfraccionRequest"/>
+    </bindings>
+    <bindings scd="tns:AddInfraccionResponse">
+      <class ref="com.gutierrez.infraccionservice.AddInfraccionResponse"/>
+    </bindings>
+    <bindings scd="~tns:ServiceStatus">
+      <class ref="com.gutierrez.infraccionservice.ServiceStatus"/>
+    </bindings>
+    <bindings scd="tns:UpdateInfraccionRequest">
+      <class ref="com.gutierrez.infraccionservice.UpdateInfraccionRequest"/>
+    </bindings>
+    <bindings scd="tns:UpdateInfraccionResponse">
+      <class ref="com.gutierrez.infraccionservice.UpdateInfraccionResponse"/>
+    </bindings>
+    <bindings scd="tns:DeleteInfraccionRequest">
+      <class ref="com.gutierrez.infraccionservice.DeleteInfraccionRequest"/>
+    </bindings>
+    <bindings scd="tns:DeleteInfraccionResponse">
+      <class ref="com.gutierrez.infraccionservice.DeleteInfraccionResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
